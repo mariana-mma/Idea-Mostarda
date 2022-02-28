@@ -11,7 +11,8 @@
 
 body {
     font-family: 'RobotoSlab';
-    background-color: #2E2F36;
+    background: rgb(99,140,124);
+    background: linear-gradient(0deg, rgba(99,140,124,1) 0%, rgba(85,45,68,0.8576564414828431) 100%);  
 }
 
 
@@ -72,6 +73,7 @@ p {
     font-weight: 300;
     margin: 20px 20px;
 }
+
 
 .footer {
     display: flex;
@@ -174,6 +176,10 @@ p {
     text-align: left;
 }
 
+.container3 img:hover {
+    transform: scale(1.1);
+}
+
 .card__Casa1 {
     grid-column: 1;
     grid-row: 3;
@@ -251,6 +257,9 @@ p {
     color: black;
 }
 
+.container4 img:hover {
+    transform: scale(1.1);
+}
 
 /*Diseños particulares de Equipo*/
 .card2 {

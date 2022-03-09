@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+/*Diseños particulares de Index*/
+
+.container1 {
+    padding: 10px;
+}
+
+.container1__gridImage {
+    max-width: 100%;
+}
+
+.container1__gridSubtitulo {
+    text-align: center;
+}
+
+.imgCarousel {
+    max-width: 100%;
+    margin: auto;
+}
+
+/*Diseños particulares de Proyectos*/
+
+
+.proyectos__card:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card__position {
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*Diseños particulares de Equipo*/
+
+.card2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 80px;
+}
+
+.card2__image {
+    max-width: 400px;
+    align-items: left;
+}
+
+/*Diseños particulares de Publicaciones*/
+
+.card3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card3__image {
+    max-width: 300px;
+}
+
+/*Diseños particulares de contacto*/
+
+.placeholder {
+    width: 80%;
+    justify-content: center;
+    margin: 0px 100px;
+    padding: 0px 20px;
+}
+
+.placeholder__input {
+    background-color: white;
+}

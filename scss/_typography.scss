@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url(../assets/font/RobotoSlab-Light.ttf);
+}
+
+body {
+    font-family: 'RobotoSlab';
+    color: white;
+    background-color: #2C2D33;
+
+    h1 {
+        text-align: center;
+        font-size: $textTitle;
+    }
+
+    h2 {
+        font-size: $textSubtitle2;
+        margin: 25px 25px;
+    }
+
+    h3 {
+        font-size: $textSubtitle3;
+        margin: 15px 0;
+    }
+    p {
+        text-align: center;
+        font-size: $textBase;
+        font-weight: 300;
+        margin: 20px 20px;
+    }
+}
+
+/*Proyectos*/
+
+.proyectos__subtitulo {
+    text-align: left;
+}
+
+.card__title {
+    text-align: center;
+    color: black;
+}
+
+.p__proyectos {
+    color: black;
+}
+
+/*Equipo*/
+
+.card2__text {
+    display: inline-block;
+    text-align: left;
+}
+
+.h2__equipo {
+    text-align: left;
+}
+
+.p__staff {
+    text-align: left;
+}

@@ -20,10 +20,74 @@ header li a {
   margin-right: 50px;
 }
 
+.rs-facebook {
+  background-color: #3b5998;
+}
+
+.rs-twitter {
+  background-color: #00acee;
+}
+
+.rs-google {
+  background-color: #f4c20d;
+}
+
+.rs-instagram {
+  background-color: #8a3ab9;
+}
+
+.rs-linkedin {
+  background-color: #86888a;
+}
+
+.rs-github {
+  background-color: #171515;
+}
+
 @font-face {
   font-family: "RobotoSlab";
   src: url(../assets/font/RobotoSlab-Light.ttf);
 }
+/*Proyectos*/
+.proyectos__subtitulo {
+  text-align: left;
+}
+
+.card__title {
+  color: black;
+  text-align: center;
+}
+
+.p__proyectos {
+  color: black;
+}
+
+/*Equipo*/
+.h2__equipo, .p__staff {
+  text-align: center;
+}
+
+.card2__text {
+  text-align: left;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
 body {
   font-family: "RobotoSlab";
   color: white;
@@ -46,50 +110,6 @@ body p {
   font-size: 14px;
   font-weight: 300;
   margin: 20px 20px;
-}
-
-/*Proyectos*/
-.proyectos__subtitulo {
-  text-align: left;
-}
-
-.card__title {
-  text-align: center;
-  color: black;
-}
-
-.p__proyectos {
-  color: black;
-}
-
-/*Equipo*/
-.card2__text {
-  display: inline-block;
-  text-align: left;
-}
-
-.h2__equipo {
-  text-align: left;
-}
-
-.p__staff {
-  text-align: left;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.logo {
-  cursor: pointer;
-  margin-right: auto;
-}
-
-.bi {
-  vertical-align: -0.125em;
-  fill: currentColor;
 }
 
 /*Diseños particulares de Index*/
@@ -122,19 +142,6 @@ body p {
   width: 100%;
 }
 
-/*Diseños particulares de Equipo*/
-.card2 {
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  margin: 0px 80px;
-}
-
-.card2__image {
-  max-width: 400px;
-  align-items: left;
-}
-
 /*Diseños particulares de Publicaciones*/
 .card3 {
   width: 100%;
@@ -145,19 +152,6 @@ body p {
 
 .card3__image {
   max-width: 300px;
-}
-
-/*Diseños particulares de contacto*/
-.placeholder {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin: 0px 100px;
-  padding: 0px 20px;
-}
-
-.placeholder__input {
-  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

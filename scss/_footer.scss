@@ -5,3 +5,18 @@
         margin-right: 50px;
     }
 }
+
+$mapRedes: (
+    facebook: #3b5998,
+    twitter: #00acee,
+    google: #f4c20d,
+    instagram: #8a3ab9,
+    linkedin: #86888a,
+    github: #171515,
+);
+
+@each $rs, $color in $mapRedes {
+    .rs-#{$rs} {
+        background-color: $color;
+    }
+}

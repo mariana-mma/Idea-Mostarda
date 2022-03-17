@@ -14,6 +14,33 @@
     fill: currentColor;
 }
 
+body {
+    font-family: 'RobotoSlab';
+    color: white;
+    background-color: #2C2D33;
+
+    h1 {
+        text-align: center;
+        font-size: $textTitle;
+    }
+
+    h2 {
+        font-size: $textSubtitle2;
+        margin: 25px 25px;
+    }
+
+    h3 {
+        font-size: $textSubtitle3;
+        margin: 15px 0;
+    }
+    p {
+        text-align: center;
+        font-size: $textBase;
+        font-weight: 300;
+        margin: 20px 20px;
+    }
+}
+
 /*Diseños particulares de Index*/
 
 .container1 {
@@ -48,20 +75,6 @@
 }
 
 
-/*Diseños particulares de Equipo*/
-
-.card2 {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin: 0px 80px;
-}
-
-.card2__image {
-    max-width: 400px;
-    align-items: left;
-}
-
 /*Diseños particulares de Publicaciones*/
 
 .card3 {
@@ -73,17 +86,4 @@
 
 .card3__image {
     max-width: 300px;
-}
-
-/*Diseños particulares de contacto*/
-
-.placeholder {
-    width: 80%;
-    justify-content: center;
-    margin: 0px 100px;
-    padding: 0px 20px;
-}
-
-.placeholder__input {
-    background-color: white;
 }

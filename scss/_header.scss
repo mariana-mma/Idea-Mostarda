@@ -1,9 +1,8 @@
 header {
-    
     li {
         a{
             font-weight: 400;
-            font-size: 16px;
+            font-size: $textHeader;
             color: #edf0f1;
             text-decoration: none;
         }

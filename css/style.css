@@ -1,7 +1,7 @@
 @charset "UTF-8";
 header li a {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -81,6 +81,7 @@ header li a {
 .logo {
   cursor: pointer;
   margin-right: auto;
+  max-width: 350px;
 }
 
 .bi {
@@ -95,19 +96,19 @@ body {
 }
 body h1 {
   text-align: center;
-  font-size: 26px;
+  font-size: 27px;
 }
 body h2 {
-  font-size: 21px;
+  font-size: 28px;
   margin: 25px 25px;
 }
 body h3 {
-  font-size: 19px;
+  font-size: 21px;
   margin: 15px 0;
 }
 body p {
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   margin: 20px 20px;
 }
@@ -123,6 +124,7 @@ body p {
 
 .container1__gridSubtitulo {
   text-align: center;
+  padding-top: 20px;
 }
 
 .imgCarousel {

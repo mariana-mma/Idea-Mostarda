@@ -163,4 +163,15 @@ body p {
   transition: all 0.5s;
 }
 
+@media (max-width: 992px) {
+  .logo__responsive {
+    max-width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .logo__responsive {
+    max-width: 220px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

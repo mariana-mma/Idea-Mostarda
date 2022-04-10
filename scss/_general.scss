@@ -89,3 +89,8 @@ body {
 .card3__image {
     max-width: 300px;
 }
+
+.card3__image:hover {
+    opacity: 0.4;
+    transition: all 0.5s;
+}

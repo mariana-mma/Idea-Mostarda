@@ -20,28 +20,15 @@ header li a {
   margin-right: 50px;
 }
 
-.rs-facebook {
-  background-color: #3b5998;
+/*Iconos Redes sociales*/
+.socialIcon {
+  font-size: 1.3rem;
+  color: white;
+  transition: 0.2s;
 }
 
-.rs-twitter {
-  background-color: #00acee;
-}
-
-.rs-google {
-  background-color: #f4c20d;
-}
-
-.rs-instagram {
-  background-color: #8a3ab9;
-}
-
-.rs-linkedin {
-  background-color: #86888a;
-}
-
-.rs-github {
-  background-color: #171515;
+.socialIcon:hover {
+  opacity: 0.4;
 }
 
 /*@font-face {

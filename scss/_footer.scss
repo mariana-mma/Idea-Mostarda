@@ -6,17 +6,14 @@
     }
 }
 
-$mapRedes: (
-    facebook: #3b5998,
-    twitter: #00acee,
-    google: #f4c20d,
-    instagram: #8a3ab9,
-    linkedin: #86888a,
-    github: #171515,
-);
+/*Iconos Redes sociales*/
 
-@each $rs, $color in $mapRedes {
-    .rs-#{$rs} {
-        background-color: $color;
-    }
+.socialIcon {
+    font-size: 1.3rem;
+    color: white;
+    transition: 0.2s;
+}
+
+.socialIcon:hover {
+    opacity: 0.4;
 }
